@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1> hi Ankit Patidar</h1>
+    {{text}} {{contact_number}}
+    {% for item in arr%}
+        {% if text == "ankit" %}
+            <li>{{item}}</li>
+        {% endif %}    
+    {% endfor %}
+{% endblock %}

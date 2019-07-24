@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% load static %}
+        <script src="{% static 'js/products/app.js' %}" ></script>
+        <title>
+            test title
+        </title>
+    </head>
+    <body>
+        {% include 'navbar.html' %}
+        {% block content %}
+        replace me
+        {% endblock %}
+        
+    </body>
+</html>

@@ -1,0 +1,6 @@
+Django/.vscode
+Django/bin
+Django/include
+Django/local
+*.sqlite3
+Django/pip-selfcheck.json

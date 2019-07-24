@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1> In App Article: {{ object.title }}</h1>
+    {% if object.content != None and object.content != '' %}
+        <p>{{ object.content }}</p>
+    {% else %}s
+        <p>content Coming soon</p>
+    {% endif %}
+{{ object.active }}
+
+{% endblock %}

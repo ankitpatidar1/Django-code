@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<form id="myForm" method = 'POST' > {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="save">
+</form>
+<button onclick="UserAction()">Copy Text</button>
+{% endblock %}
